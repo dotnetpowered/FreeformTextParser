@@ -1,0 +1,22 @@
+﻿From:   PaySys Accounts Payable
+        2301 Oregon Way
+        Tangelwood, TN  32027
+        (615) 888-7308
+        Fax: (615) 888-7325
+
+To:     My Solutions
+        Doug Smith
+        1800 Main Street
+        Jacksonville, FL  32256
+
+The following invoices are included in payment number:      242821
+
+Inv Date                Invoice#                                Amount
+05/09/2019      CREDIT JAN16               $ 16,495.75
+05/09/2019      CREDIT JAN20               $ 43,000.15
+
+
+
+Total payment amount: $ 59,495.90
+
+PaySys has processed this ACH payment with an effective date of 02/12/2016.  The availability of these funds is determined by your financial institution.

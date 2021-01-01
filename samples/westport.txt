@@ -1,0 +1,18 @@
+﻿A direct deposit will be made into your account. Details are as follows:
+
+
+
+Vendor Name:     MY SOLUTIONS
+Address:         1800 MAIN STREET
+                 SUITE 4
+City/State/Zip:  JACKSONVILLE, FL  32216
+*********************************************************************************************
+Payment Dt:      12/09/2019
+Invoice No:      2369
+Invoice Dt:      11/25/2019
+Disc Taken:      .00
+Amount:          $1,636.00
+Voucher No:      WP087449
+PO/Ref No:
+Invoice Desc:    3 T-1020 & 1 T-1021
+---------------------------------------------------------------------------------------------

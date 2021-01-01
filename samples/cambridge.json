@@ -1,0 +1,56 @@
+﻿{
+	"Name": "Payment",
+	"Groups":
+	[
+		{
+			"Name":"ToCompany",
+			"StartString":"TO:",
+			"EndString":"TOTES ISOTONER",
+			"Elements":[
+				{
+					"Name":"Company", 
+					"LineNo":"1", 
+					"StartString":"TO:", 
+				}
+			]
+		},
+		{
+			"Name":"Invoice",
+			"StartString":"00002516 ONPAY SOLUTIONS",
+			"EndString":"Total payment amount: $",
+			"RecordBreakOnLine":"true",
+			"ElementsStartOnLine":"2",
+			"Elements":[
+				{
+					"Name":"InvoiceDate", 
+					"RegEx":"(\\d+)[-.\\/](\\d+)[-.\\/](\\d+)"
+				},
+				{
+					"Name":"InvoiceNumber", 
+					"RegEx":"\\s([A-Z,0-9,\\s]{30})"
+				},
+				{
+					"Name":"InvoiceAmount", 
+					"RegEx":"([0-9]*.[0-9])\\w+$"
+				}
+			]
+		}
+
+	],
+	"Elements":
+	[
+		{
+			"Name":"PaymentNumber",
+			"StartString":"REF NO:  ", 
+		},
+		{
+			"Name":"PaymentAmount",
+			"StartString":"The amount of the deposit was: *****", 
+		},
+		{
+			"Name":"EffectiveDate",
+			"StartString":"The deposit was initiated on:", 
+		}
+
+	]
+}

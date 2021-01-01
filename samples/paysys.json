@@ -1,0 +1,66 @@
+﻿{
+	"Name": "Payment",
+	"Groups":
+	[
+		{
+			"Name":"ToCompany",
+			"StartString":"To:     ",
+			"EndString":"The following",
+			"Elements":[
+				{
+					"Name":"Company", 
+					"LineNo":"1", 
+					"StartString":"To:"
+				},
+				{
+					"Name":"Address1", 
+					"LineNo":"2"
+				},
+				{
+					"Name":"Address1", 
+					"LineNo":"3"
+				}
+			]
+		},
+		{
+			"Name":"Invoice",
+			"StartString":"Inv Date",
+			"EndString":"Total payment amount: $",
+			"RecordBreakOnLine":"true",
+			"ElementsStartOnLine":"2",
+			"Elements":[
+				{
+					"Name":"InvoiceDate", 
+					"RegEx":"(\\d+)[-.\\/](\\d+)[-.\\/](\\d+)"
+				},
+				{
+					"Name":"InvoiceNumber", 
+					"StartString":"CREDIT",
+					"EndString":"$"
+				},
+				{
+					"Name":"InvoiceAmount", 
+					"StartString":"$"
+				}
+			]
+		}
+
+	],
+	"Elements":
+	[
+		{
+			"Name":"PaymentNumber",
+			"StartString":"payment number:"
+		},
+		{
+			"Name":"PaymentAmount",
+			"StartString":"Total payment amount: $"
+		},
+		{
+			"Name":"EffectiveDate",
+			"StartString":"effective date of", 
+			"EndString":"."
+		}
+
+	]
+}

@@ -1,0 +1,47 @@
+﻿{
+	"Name": "Payment",
+	"Groups":
+	[
+		{
+			"Name":"ToCompany",
+			"StartString":"Vendor Name:",
+			"EndString":"***",
+			"Elements":[
+				{
+					"Name":"Company", 
+					"LineNo":"1", 
+					"StartString":"Vendor Name:"
+				}
+			]
+		},
+		{
+			"Name":"Invoice",
+			"StartString":"Invoice No:",
+			"EndString":"-----",
+			"Elements":[
+				{
+					"Name":"InvoiceDate", 
+					"StartString":"Invoice Dt:"
+				},
+				{
+					"Name":"InvoiceNumber", 
+					"StartString":"Invoice No:"
+				},
+				{
+					"Name":"InvoiceAmount", 
+					"StartString":"Amount:          $"
+				}
+			]
+		}
+
+	],
+	"Elements":
+	[
+
+		{
+			"Name":"EffectiveDate",
+			"StartString":"Payment Dt:"
+		}
+
+	]
+}

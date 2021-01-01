@@ -1,0 +1,50 @@
+﻿{
+	"Name": "Payment",
+	"Groups":
+	[
+		{
+			"Name":"ToCompany",
+			"StartString":"Vendor Name",
+			"EndString":"Deposit Number",
+			"Elements":[
+				{
+					"Name":"Company", 
+					"LineNo":"1", 
+					"StartString":"Vendor Name" 
+				}
+			]
+		},
+		{
+			"Name":"Invoice",
+			"StartString":"Invoice Number",
+			"EndString":"If you have any questions about this payment",
+			"Elements":[
+				{
+					"Name":"InvoiceNumber", 
+					"RegEx":"^([\\s,0-9]){20}"
+				},
+				{
+					"Name":"InvoiceAmount", 
+					"RegEx":"([0-9]*.[0-9])\\w+$"
+				}
+			]
+		}
+
+	],
+	"Elements":
+	[
+		{
+			"Name":"PaymentNumber",
+			"StartString":"Deposit Number"
+		},
+		{
+			"Name":"PaymentAmount",
+			"StartString":"Deposit Amount" 
+		},
+		{
+			"Name":"EffectiveDate",
+			"StartString":"Deposit Date"
+		}
+
+	]
+}

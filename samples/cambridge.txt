@@ -1,0 +1,12 @@
+﻿TO:  00002519 MY SOLUTIONS
+
+CAMBRIDGE SUPPLY
+made a deposit into your bank account begninning with:  9286**************
+REF NO:  20128364
+The deposit was initiated on:  2/3/2019
+The deposit should appear in your bank within 3  business days.
+The amount of the deposit was: *****5340.00
+
+ Date            Description                  Gross  Amount        Discount        Net Amount
+00002519 MY SOLUTIONS
+1/12/19 IN 00550009 2404                    5340.00           .00        5340.00
